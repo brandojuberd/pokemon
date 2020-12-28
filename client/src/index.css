@@ -1,0 +1,176 @@
+@media screen and (min-width: 501px) {
+  .app .navbar-container li img{
+    width: 3vw;
+    height: auto;
+  }
+
+  .app .navbar-container {
+    width: 540px;
+
+  }
+
+  .app .pokemon-image img{
+    width: 30vw;
+  }
+}
+
+.app{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 540px;
+}
+
+.main-logo{
+  display: flex;
+  justify-content: center;
+}
+
+/* NAVBAR */
+
+.navbar-container{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  padding: 0;
+  margin: 0;
+
+  background-color: wheat;
+}
+
+
+.navbar-container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-container li{
+  padding: 1rem;
+}
+
+.navbar-container li img{
+
+  width: 10vw;
+  height: auto;
+}
+
+/* NAVBAR */
+
+
+/* HOME */
+.home-container{
+  /* background-color: red; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  text-align: center;
+}
+
+/* HOME */
+
+
+/* LIST */
+.list-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.dropdown-generation-menu{
+  align-self: center;
+  margin: 2px;
+}
+
+/* LIST */
+
+/* LOADING ANIMATION */
+svg path,
+svg rect{
+  fill: #FF6700;
+}
+
+.loading-animation{
+  top: 50vh;
+
+  width: 20vw;
+  height: auto;
+  align-self: center;
+}
+
+/* LOADING ANIMATION */
+
+/* DETAIL */
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 100px;
+}
+
+.pokemon-image img{
+  width: 50vw;
+  height: auto;
+}
+
+.pokemon-types{
+  display: flex;
+  flex-direction: row;
+}
+
+.pokemon-moves {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.pokemon-moves-button {
+  margin-bottom: 10px;
+}
+
+/* DETAIL */
+
+/* MY POKEMONS */
+
+.my-pokemons-container{
+  margin-top: 1rem;
+  max-width: 100%;
+  margin-bottom: 4rem;
+}
+
+.my-pokemons-container .table tbody{
+  min-width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.my-pokemons-container .table tr{
+  min-width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+/* MY POKEMONS */
+
