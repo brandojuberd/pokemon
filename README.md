@@ -1,2 +1,2 @@
 # pokemon
-Mini-Project Pokemon Database
+Mini-Project Pokemon with GrapQL 
